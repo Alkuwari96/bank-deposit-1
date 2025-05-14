@@ -1,0 +1,1 @@
+console.log("Bank Deposit app frontend loaded.");
