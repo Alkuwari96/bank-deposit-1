@@ -7,8 +7,7 @@ app_color = 'blue'
 app_email = 'you@example.com'
 app_license = 'MIT'
 
-# Include dummy JS to satisfy esbuild
-app_include_js = "/assets/bank_deposit/js/bank_deposit.js"
-app_include_css = []
-web_include_js = []
-web_include_css = []
+# Fake frontend asset to satisfy esbuild
+doctype_js = {
+    "Bank Deposit": "public/js/doctype_list.js"
+}
